@@ -1,0 +1,131 @@
+body{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+section{
+    display: flex;
+    height: 100%;
+}
+
+.listizq{
+    width: 20%;
+    border: 3px solid #430c5c;
+    background-color: #ffffff;
+}
+
+.username{
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #430c5c;
+}
+
+.buttonnew{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #430c5c;
+}
+
+.username img{
+    border-radius: 50%;
+    width: 35%;
+}
+
+.buttons{
+    height: 50%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.estado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estado h4{
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.estado h5{
+    margin: 0%;
+    color: rgb(16, 68, 70);
+    font-weight: lighter;
+}
+
+.botonchat{
+    background-color: #a983bb;
+    cursor: pointer;
+    border: 5px;
+    height: 60%;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.botonchat:hover{
+    background-color: #702f8e;
+}
+
+.contactbar{
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #430c5c;
+    min-height: 20%
+}
+
+.contacts img{
+    border-radius: 50%;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.contactos h4{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.contactos h5{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.ppal{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+.ppal img{
+    width: 25%;
+    height: 25%;
+}
+
+.ppal h3{
+    max-width: 50%;
+    text-align: center;
+    font-weight: lighter;
+}
